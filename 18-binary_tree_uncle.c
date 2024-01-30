@@ -25,7 +25,7 @@ binary_tree_t *search_uncle(binary_tree_t *node)
 
 /**
  * binary_tree_uncle - finds the uncle of a node
- * @tree: the tree
+ * @node: the node
  *
  * Return: uncle
  */
