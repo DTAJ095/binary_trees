@@ -2,7 +2,7 @@
 
 /**
  * is_BST - Compare node is order to check if a given node
- * is 
+ * is min or max a value
  * @tree: the tree
  * @min: the min value
  * @max: the max value
