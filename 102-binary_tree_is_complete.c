@@ -26,7 +26,7 @@ int complete_tree(binary_tree_t *root, int index, int n)
 {
 	if (!root)
 		return (0);
-	
+
 	if (index >= n)
 		return (0);
 	if (!root->left && !root->right)
