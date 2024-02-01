@@ -42,7 +42,7 @@ size_t tree_size_h(const binary_tree_t *tree)
 		left_h = 1 + tree_size_h(tree->left);
 
 	if (tree->right)
-		right = 1 + tree_size_h(tree->right);
+		right_h = 1 + tree_size_h(tree->right);
 
 	return (left_h + right_h);
 }
