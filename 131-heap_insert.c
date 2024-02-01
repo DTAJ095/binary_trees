@@ -4,9 +4,8 @@ heap_t *heap_nf(heap_t *root, size_t number);
 heap_t *heap_r(heap_t *new, heap_t *parent);
 
 /**
- * heap_insert - heap inserter
- *
- * @tree: double pointer to root
+ * heap_insert - inserts a value in Max Binary Heap
+ * @root: double pointer to root
  * @value: the value to store
  * Return: pointer to the created node
  */
